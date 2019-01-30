@@ -47,7 +47,6 @@
                 valor: inputValor.value
             };
 
-            // usando nosso serviço. Veja que nem guardei em uma variável 
             new HttpService()
                 .post('/negociacoes', negociacao)
                 .then(() => {
